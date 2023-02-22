@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.section-one-content{
+    position: relative;
+    overflow: hidden;
+}
+.section-one-img{
+    width: 100%;
+    height: 700px;
+}
+.section-one-text{
+    color: white;
+    position: absolute;
+    width: 40%;
+    left: 6%;
+    top: 10%;
+}
+.section-one-content P{
+    font-size: 30px;
+    font-weight: 100;
+}
+.section-one-content h1{
+    font-size: 70px;
+}
+.section-one-buts .btn{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 15px 50px;
+    color: white;
+}
+.section-one-buts .btn:hover{
+    color: black;
+}
+
+.section-two-all {
+    display: flex;
+    height: 700px;
+}
+
+.section-two-text1 {
+    margin: 10% 20%;
+}
+
+.section-two-text1 h1 {
+    font-size: 50px;
+}
+
+.section-two-text1 p {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(93, 93, 93);
+}
+.section-two-text1 .btn {
+    color: black;
+    border: black solid 1px;
+    padding: 10px 40px;
+}
+
+.section-three {
+    background-color: rgb(250, 242, 232);
+    height: 450px;
+    position: relative;
+}
+
+.section-three-content {
+    text-align: center;
+    width: 48%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-three .col-md-6 {
+    padding: 50px;
+}
+
+.headlines {
+    font-size: 70px;
+}
+
+.pargraphs {
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(93, 93, 93);
+}
+
+
+footer {
+    background-color: #3f4d3c;
+    color: white;
+    align-items: center;
+}
+
+footer .container {
+    padding: 100px 0;
+}
+
+footer .col-md-4 {
+    padding: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .section-three .col-md-6{
+        padding: 10px;
+    }
+    .section-three h1 {
+        font-size: 50px;
+    }
+
+    .section-three p {
+        font-size: 15px;
+    }
+
+
+}
+@media only screen and (max-width: 1000px) {
+    .section-one-text{
+        display: none;
+    }
+}
